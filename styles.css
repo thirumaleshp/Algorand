@@ -1,8 +1,9 @@
 body {
-  background-color: #101010;
+  background-color: #e8e8e8;
 }
 
 img {
   width: 800;
   height: auto;
+  justify-content: center;
 }
