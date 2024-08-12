@@ -105,19 +105,60 @@ nav li:first-child{
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
-  
 }
 
 .round{
-  width: 300px;
-  height: 300px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 10px;
+  margin: 70px;
   line-height: 250px;
 
 }
 
 .icon{
   padding-right: 15px;
+}
+
+--------------
+
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.team-member {
+width: 250px;
+text-align: center;
+}
+
+.team-member img {
+  width: 190px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  margin: 15px 0 5px 0;
+  font-size: 1.2em;
+  color: #333;
 }
