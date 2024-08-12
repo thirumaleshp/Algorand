@@ -1,164 +1,41 @@
-body {
-  background-color: #e8e8e8;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC mlritm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+		<img src="Algorand_mark.svg" width="60%" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); filter: drop-shadow(0px 0px 20px black);">
+	</div>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="connect.html"><b>Connect</b></a></li>
+      <li><a href="events.html"><b>Events</b></a></li>
+      <li><a href="team.html"><b>Team</b></a></li>
+    </ul>
+    <ul>
+      <li><a href="index.html"><b>ABC MLRITM</b></a></li>
+      <li class="hideOnMobile"><a href="connect.html"><b>Connect</b></a></li>
+      <li class="hideOnMobile"><a href="events.html"><b>Events</b></a></li>
+      <li class="hideOnMobile"><a href="team.html"><b>Team</b></a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
 
-img {
-  width: 800;
-  height: auto;
-  justify-content: center;
-}
-
-
-*{
-  margin: 0;
-  padding: 0;
-}
-body{
-  min-height: 100vh;
-  
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-nav{
-  background-color: #e8e8e8;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-}
-nav ul{
-  width: 100%;
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-nav li{
-  height: 50px;
-}
-nav a{
-  height: 100%;
-  padding: 0 30px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: black;
-}
-nav a:hover{
-  background-color: #f0f0f0;
-}
-nav li:first-child{
-  margin-right: auto;
-}
-.sidebar{
-  position: fixed;
-  top: 0; 
-  right: 0;
-  height: 100vh;
-  width: 250px;
-  background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(12px);
-  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-  list-style: none;
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.sidebar li{
-  width: 100%;
-}
-.sidebar a{
-  width: 100%;
-}
-.menu-button{
-  display: none;
-}
-@media(max-width: 800px){
-  .hideOnMobile{
-    display: none;
-  }
-  .menu-button{
-    display: block;
-  }
-}
-@media(max-width: 400px){
-  .sidebar{
-    width: 100%;
-  }
-}
-
-
--------------------
-
-*{
-  margin: 0;
-  padding: 0;
-  font-family: cursive ;
-  box-sizing: border-box;
-}
-
-.flex-container {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: center;
-}
-
-.round{
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 70px;
-  line-height: 250px;
-
-}
-
-.icon{
-  padding-right: 15px;
-}
-
---------------
-
-.body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-}
-
-h1 {
-  margin-bottom: 50px;
-  text-align: center;
-  padding: 10px;
-}
-
-.team-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  padding: 20px;
-}
-
-.team-member {
-width: 250px;
-text-align: center;
-}
-
-.team-member img {
-  width: 190px;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.team-member h3 {
-  margin: 15px 0 5px 0;
-  font-size: 1.2em;
-  color: #333;
-}
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+</body>
+</html>
