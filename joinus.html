@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Us</title>
+  <link rel="shortcut icon" href="images/alogo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--     <div>
+
+      <img src="images/whatsapp.png" width="90" height="90" style="position: absolute; top: 50%; left: 30%; transform: translate(-50%, -50%);">
+
+      <img src="images/insta.png" width="90" height="90" style="position: absolute; top: 50%; left: 40%; transform: translate(-50%, -50%);">
+
+      <img src="images/telegram.png" width="90" height="90" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+
+      <img src="images/drive.png" width="90" height="90" style="position: absolute; top: 50%; left: 60%; transform: translate(-50%, -50%);">
+
+  </div> -->
+
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html"><b>Home</b></a></li>
+      <li><a href="events.html"><b>Events</b></a></li>
+      <li><a href="team.html"><b>Team</b></a></li>
+    </ul>
+    <ul>
+      <li><a href="index.html"><b>ABC MLRITM</b></a></li>
+      <li class="hideOnMobile"><a href="index.html"><b>Home</b></a></li>
+      <li class="hideOnMobile"><a href="events.html"><b>Events</b></a></li>
+      <li class="hideOnMobile"><a href="team.html"><b>Team</b></a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+
+<h1>Join Us </h1>
+
+    <div class="team-container">
+
+        <!-- Whatsapp -->
+        <div class="team-member">
+            <a href="https://chat.whatsapp.com/HtUXvy2NfQ4LBcUvzeKnzB" target="_blank">
+            <img src="images/whatsapp.png" alt="Whatsapp" style=" width: 190px; height: auto; border-radius: 50%; object-fit: cover;"></a>
+            <h3>Whatsapp</h3>
+        </div>
+        
+        <!-- Telegram -->
+        <div class="team-member">
+            <a href="https://t.me/+qYZhSjfu7_5lMTk1" target="_blank">
+            <img src="images/telegram.png" alt="Telegram" style=" width: 190px; height: auto; border-radius: 50%; object-fit: cover;"></a>
+            <h3>Telegram</h3>
+        </div>
+        
+        <!-- Instagram -->
+        <div class="team-member">
+            <a href="https://www.instagram.com/abc_mlritm?igsh=MTRwdTluOXFoMm9laA==" target="_blank">
+            <img src="images/instagram.png" alt="Instagram" style=" width: 190px; height: auto; border-radius: 50%; object-fit: cover;"></a>
+            <h3>Instagram</h3>
+        </div>
+        
+        <!-- Drive -->
+        <div class="team-member">
+            <img src="images/drive.png" alt="G-Drive" style=" width: 190px; height: auto; border-radius: 50%; object-fit: cover;">
+            <h3>Drive</h3>
+        </div>
+
+        <!-- Github -->
+        <div class="team-member">
+            <img src="images/github.png" alt="G-Drive" style=" width: 190px; height: auto; border-radius: 50%; object-fit: cover;">
+            <h3>Github</h3>
+        </div>
+    </div>
+
+
+</body>
+</html
