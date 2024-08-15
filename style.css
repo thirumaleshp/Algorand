@@ -24,6 +24,8 @@ body{
 nav{
   background-color: #e8e8e8;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
 }
 nav ul{
   width: 100%;
@@ -118,7 +120,7 @@ nav li:first-child{
 }
 
 .icon{
-  padding-right: 15px;
+  padding-right: ;
 }
 
 --------------
@@ -146,16 +148,17 @@ h1 {
 }
 
 .team-member {
-width: 250px;
+width: 230px;
 text-align: center;
 }
 
-.team-member img {
+/*.team-member img {
   width: 190px;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
-}
+}*/
+
 
 .team-member h3 {
   margin: 15px 0 5px 0;
