@@ -150,6 +150,7 @@ h1 {
 .team-member {
 width: 230px;
 text-align: center;
+padding: 20px;
 }
 
 /*.team-member img {
