@@ -143,12 +143,12 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
   padding: 20px;
 }
 
 .team-member {
-width: 230px;
+width: 270px;
 text-align: center;
 }
 
