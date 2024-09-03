@@ -5,14 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Events</title>
-    <link rel="shortcut icon" href="images/alogo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/alogo.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
+  <style type="text/css">
+    .centered-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust height as needed */
+        }
+  </style>
 </head>
 <body>
-  <div>
+  <!-- <div>
       <img src="images/earth.png" width="80%" height="auto" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -45%);">
 
-  </div>
+  </div> -->
+
+
   <nav>
     <ul class="sidebar">
       <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
@@ -29,6 +39,18 @@
     </ul>
   </nav>
 
+<div class="centered-container">
+        <a
+          href="https://lu.ma/event/evt-BrQadyXlyEa4A3B"
+          class="luma-checkout--button"
+          data-luma-action="checkout"
+          data-luma-event-id="evt-BrQadyXlyEa4A3B"
+        >
+          Register for Event
+        </a>
+      </div>
+
+<script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
 
   <script>
     function showSidebar(){
@@ -42,6 +64,5 @@
   </script>
 
 
-
 </body>
-</html
+</html>
